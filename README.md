@@ -97,3 +97,15 @@ CUDA_VISIBLE_DEVICES=0 nohup python src/train_bash.py --stage sft --model_name_o
 CUDA_VISIBLE_DEVICES=0 nohup python src/train_bash.py --stage sft --model_name_or_path model/llama_7b_base --do_predict --dataset lima_test --template alpaca --finetuning_type lora --overwrite_cache --per_device_eval_batch_size 1 --max_samples 300 --predict_with_generate --checkpoint_dir checkpoint/lima/sft --output_dir evaluation/sft/lima > test.out 2>&1 &
 ```
 
+## Citation
+
+If you find our work useful, please cite our paper as follows:
+
+```
+@article{lyu2024knowtuning,
+  title={KnowTuning: Knowledge-aware Fine-tuning for Large Language Models},
+  author={Lyu, Yougang and Yan, Lingyong and Wang, Shuaiqiang and Shi, Haibo and Yin, Dawei and Ren, Pengjie and Chen, Zhumin and de Rijke, Maarten and Ren, Zhaochun},
+  journal={arXiv preprint arXiv:2402.11176},
+  year={2024}
+}
+```
