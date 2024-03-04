@@ -73,6 +73,8 @@ model/llama_7b_base
 
 ## Training
 
+Based on open-source training framework [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory), following below instructions for training.
+
 ### Vanilla fine-tuning
 
 ```bash
@@ -88,7 +90,7 @@ CUDA_VISIBLE_DEVICES=0 nohup python src/train_bash.py --stage sft --model_name_o
 ### Implicit Knowledge Comparison
 
 ```bash
-CUDA_VISIBLE_DEVICES=0 nohup python src/train_bash.py --stage sft --model_name_or_path model/llama_7b_base --do_train --dataset lima_KC --template alpaca --finetuning_type lora --lora_target q_proj,v_proj --load_best_model_at_end --per_device_train_batch_size 16 --gradient_accumulation_steps 1 --overwrite_cache --lr_scheduler_type cosine --eval_steps 0.1 --evaluation_strategy steps --save_steps 0.1 --val_size 100 --learning_rate 5e-5 --num_train_epochs 3.0 --bf16 --plot_loss --output_dir checkpoint/lima/kc > train.out 2>&1 &
+CUDA_VISIBLE_DEVICES=0 nohup python src/train_bash.py --stage dpo --model_name_or_path model/llama_7b_base --do_train --dataset lima_KC --template alpaca --finetuning_type lora --lora_target q_proj,v_proj --resume_lora_training 1 --overwrite_output_dir --checkpoint_dir checkpoint/lima/kg --output_dir checkpoint/lima/kc --per_device_train_batch_size 8 --gradient_accumulation_steps 1 --lr_scheduler_type cosine --logging_steps 10 --save_steps 1000 --learning_rate 1e-5 --num_train_epochs 1.0 --plot_loss --bf16 > train.out 2>&1 &
 ```
 
 ### Test
