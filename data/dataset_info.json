@@ -1,22 +1,22 @@
 {
- "lima_train": {
-    "file_name": "lima/lima_train.json",
+ "dolly_train": {
+    "file_name": "dolly/dolly_train.json",
     "columns": {
       "prompt": "instruction",
       "query": "input",
       "response": "output"
     }
   },
-"lima_KG": {
-    "file_name": "lima/lima_KG.json",
+"dolly_KA": {
+    "file_name": "dolly/dolly_KA.json",
     "columns": {
       "prompt": "instruction",
       "query": "input",
       "response": "output"
     }
   },
- "lima_KC": {
-  "file_name": "lima_KC.json",
+ "dolly_KC": {
+  "file_name": "dolly_KC.json",
     "columns": {
       "prompt": "instruction",
       "query": "input",
@@ -24,8 +24,16 @@
     },
     "ranking": true
   },
- "lima_test": {
-    "file_name": "lima/lima_test.json",
+ "dolly_valid": {
+    "file_name": "dolly/dolly_valid.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+ "dolly_test": {
+    "file_name": "dolly/dolly_test.json",
     "columns": {
       "prompt": "instruction",
       "query": "input",
@@ -40,8 +48,8 @@
       "response": "output"
     }
   },
-"medquad_KG": {
-    "file_name": "medquad/medquad_KG.json",
+"medquad_KA": {
+    "file_name": "medquad/medquad_KA.json",
     "columns": {
       "prompt": "instruction",
       "query": "input",
@@ -56,6 +64,14 @@
       "response": "output"
     },
     "ranking": true
+  },
+ "medquad_valid": {
+    "file_name": "medquad/medquad_valid.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
   },
  "medquad_test": {
     "file_name": "medquad/medquad_test.json",
