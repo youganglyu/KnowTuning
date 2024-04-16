@@ -1,0 +1,84 @@
+{
+ "dolly_train": {
+    "file_name": "dolly/dolly_train.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+"dolly_KA": {
+    "file_name": "dolly/dolly_KA.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+ "dolly_KC": {
+  "file_name": "dolly_KC.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    },
+    "ranking": true
+  },
+ "dolly_valid": {
+    "file_name": "dolly/dolly_valid.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+ "dolly_test": {
+    "file_name": "dolly/dolly_test.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+"medquad_train": {
+    "file_name": "medquad/medquad_train.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+"medquad_KA": {
+    "file_name": "medquad/medquad_KA.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+ "medquad_KC": {
+  "file_name": "medquad_KC.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    },
+    "ranking": true
+  },
+ "medquad_valid": {
+    "file_name": "medquad/medquad_valid.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+ "medquad_test": {
+    "file_name": "medquad/medquad_test.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+}
