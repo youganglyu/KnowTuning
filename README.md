@@ -4,7 +4,7 @@
 
 Authors: Yougang Lyu, Lingyong Yan, Shuaiqiang Wang, Haibo Shi, Dawei Yin, Pengjie Ren, Zhumin Chen, Maarten de Rijke, Zhaochun Ren
 
-![](/Users/lvyougang/Downloads/Project/3 博士项目/GitHub/KnowTuning/KnowTuning/pics/framework.png)
+![](./pics/framework.png)
 
 ## Abstract
 
@@ -109,4 +109,27 @@ sh medquad/kc_medquad.sh
 ```bash
 sh dolly/test_dolly.sh
 sh medquad/test_medquad.sh
+```
+
+## Citation
+
+If this work is helpful to you, welcome to cite our paper as:
+
+```
+@article{DBLP:journals/corr/abs-2402-11176,
+  author       = {Yougang Lyu and
+                  Lingyong Yan and
+                  Shuaiqiang Wang and
+                  Haibo Shi and
+                  Dawei Yin and
+                  Pengjie Ren and
+                  Zhumin Chen and
+                  Maarten de Rijke and
+                  Zhaochun Ren},
+  title        = {KnowTuning: Knowledge-aware Fine-tuning for Large Language Models},
+  journal      = {CoRR},
+  volume       = {abs/2402.11176},
+  year         = {2024},
+  url          = {https://doi.org/10.48550/arXiv.2402.11176},
+}
 ```
