@@ -81,4 +81,20 @@
       "response": "output"
     }
   },
+ "eli5_test": {
+    "file_name": "eli5_test.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+ "nq_test": {
+    "file_name": "nq_test.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  }
 }

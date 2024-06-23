@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 nohup python src/train_bash.py --stage sft --model_name_or_path model/llama_7b_base --do_predict --dataset dolly_test --template alpaca --finetuning_type lora --overwrite_cache --per_device_eval_batch_size 16 --max_samples 200 --predict_with_generate --checkpoint_dir checkpoint/dolly/sft --output_dir evaluation/dolly/test > test.out 2>&1 &
