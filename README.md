@@ -116,20 +116,11 @@ sh medquad/test_medquad.sh
 If this work is helpful to you, welcome to cite our paper as:
 
 ```
-@article{DBLP:journals/corr/abs-2402-11176,
-  author       = {Yougang Lyu and
-                  Lingyong Yan and
-                  Shuaiqiang Wang and
-                  Haibo Shi and
-                  Dawei Yin and
-                  Pengjie Ren and
-                  Zhumin Chen and
-                  Maarten de Rijke and
-                  Zhaochun Ren},
-  title        = {KnowTuning: Knowledge-aware Fine-tuning for Large Language Models},
-  journal      = {CoRR},
-  volume       = {abs/2402.11176},
-  year         = {2024},
-  url          = {https://doi.org/10.48550/arXiv.2402.11176},
+@inproceedings{DBLP:conf/emnlp/LyuYWSYRCRR24,
+	title        = {KnowTuning: Knowledge-aware Fine-tuning for Large Language Models},
+	author       = {Yougang Lyu and Lingyong Yan and Shuaiqiang Wang and Haibo Shi and Dawei Yin and Pengjie Ren and Zhumin Chen and Maarten de Rijke and Zhaochun Ren},
+	year         = 2024,
+	booktitle    = {Proceedings of EMNLP},
+	pages        = {14535--14556}
 }
 ```
