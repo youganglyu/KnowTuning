@@ -12,9 +12,10 @@ Despite their success at many natural language processing (NLP) tasks, large lan
 
 ## Requirements
 
+pip install -e .
 pip install -r requirements.txt
 
-Please note download [LLaMA-Factory-files](https://pypi.org/project/llmtuner/0.5.3/) to prepare enviroments.
+Note that the training framework is from open-source framework LLaMA-Factory-files](https://pypi.org/project/llmtuner/0.5.3/).
 
 ## Datasets
 
