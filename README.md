@@ -12,9 +12,8 @@ Despite their success at many natural language processing (NLP) tasks, large lan
 
 ## Requirements
 
-pip install -e .
-
-pip install -r requirements.txt
+1. pip install -e .
+2. if you encounter errors about the environment, you can use pip install -r requirements.txt to fix it.
 
 Note that the training framework is from open-source framework [LLaMA-Factory-files](https://pypi.org/project/llmtuner/0.5.3/)
 
